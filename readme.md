@@ -22,14 +22,14 @@ pip install -r requirements
 
 ### Repository Organization
 This repository is organized as follows:
-    - data: contains the datasets used in the paper, where each contains dataset-name.taxo, dataset-name.terms and term2def:
-        - MAG-CS-WIKI
-        - MAG-PSY
-        - SemEval-Noun
-        - SemEval-Verb
-    - config_files: we specify for each dataset the hyperparameters used to train TaxoComplete.
-    - config_files_evaluate: we provide config files to evaluate on MAG-PSY-Wiki in case one has a trained model.
-    - src: contains the source code of TaxoComplete
+- data: contains the datasets used in the paper, where each contains dataset-name.taxo, dataset-name.terms and term2def:
+    - MAG-CS-WIKI
+    - MAG-PSY
+    - SemEval-Noun
+    - SemEval-Verb
+- config_files: we specify for each dataset the hyperparameters used to train TaxoComplete.
+- config_files_evaluate: we provide config files to evaluate on MAG-PSY-Wiki in case one has a trained model.
+- src: contains the source code of TaxoComplete
 
 ### Running the code
 - For the sake of reproducibility, we specify all hyperparameters in the config_files folder. For instance, to train and evaluate TaxoComplete on the MAG-PSY-Wiki dataset, use the following command:
