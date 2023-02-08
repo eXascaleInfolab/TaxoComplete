@@ -22,7 +22,7 @@ pip install -r requirements
 
 ### Repository Organization
 This repository is organized as follows:
-- data: contains the datasets used in the paper, where each contains dataset-name.taxo, dataset-name.terms and term2def:
+- data: contains the datasets used in the paper, where each contains dataset-name.taxo (each line is a pair of (parent node, child node) in the taxonomy), dataset-name.terms (each line is a pair of (node id, node name)) and term2def (each line is the node and its definition from a corresponding corpus):
     - MAG-CS-WIKI
     - MAG-PSY
     - SemEval-Noun
